@@ -1,0 +1,45 @@
+{
+  "name": "TornPlus Official Repository",
+  "description": "A curated set of userscripts hand-picked to work well with Torn Plus. Every script is third-party code installed entirely at your own risk — see the disclaimer in the README.",
+  "maintainer": "TornPlus",
+  "homepage": "https://github.com/TornPlus/repository",
+  "formatVersion": 1,
+  "scripts": [
+    {
+      "name": "Lazy Crimes",
+      "description": "Adds a spam crime button for everybody that should've stayed on Crimes 1.0.",
+      "author": "Heartflower [2626587]",
+      "version": "2.0.9",
+      "downloadUrl": "https://update.greasyfork.org/scripts/540604/Lazy%20Crimes.user.js",
+      "updateUrl": "https://update.greasyfork.org/scripts/540604/Lazy%20Crimes.meta.js",
+      "homepage": "https://greasyfork.org/scripts/540604"
+    },
+    {
+      "name": "Flavourless",
+      "description": "Removes the crime flavour text on the Crimes page.",
+      "author": "[2487979]",
+      "version": "0.0.5",
+      "downloadUrl": "https://update.greasyfork.org/scripts/559278/Flavourless.user.js",
+      "updateUrl": "https://update.greasyfork.org/scripts/559278/Flavourless.meta.js",
+      "homepage": "https://greasyfork.org/scripts/559278"
+    },
+    {
+      "name": "Crime Morale",
+      "description": "A comprehensive tool for Crime 2.0.",
+      "author": "tobytorn [1617955]",
+      "version": "1.4.15",
+      "downloadUrl": "https://update.greasyfork.org/scripts/515557/Crime%20Morale.user.js",
+      "updateUrl": "https://update.greasyfork.org/scripts/515557/Crime%20Morale.meta.js",
+      "homepage": "https://greasyfork.org/scripts/515557"
+    },
+    {
+      "name": "OC Role Assistant",
+      "description": "Highlights the best OC role using configurable CPR priorities.",
+      "author": "Cypher [2641265], Renger [3125174], Thunderkill [3201787]",
+      "version": "1.6.16",
+      "downloadUrl": "https://raw.githubusercontent.com/Thunderkill/oc-role-assistant/refs/heads/main/OC%20Role%20Assistant.user.js",
+      "updateUrl": "https://raw.githubusercontent.com/Thunderkill/oc-role-assistant/refs/heads/main/OC%20Role%20Assistant.user.js",
+      "homepage": "https://github.com/Thunderkill/oc-role-assistant"
+    }
+  ]
+}
