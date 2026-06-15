@@ -18,13 +18,13 @@ single tap. This official repository is always available in the app and cannot b
 
 ## What's included
 
-| Script | Author | What it does |
-| --- | --- | --- |
-| [Lazy Crimes](https://greasyfork.org/scripts/540604) | Heartflower [2626587] | Adds a spam crime button for Crimes. |
-| [Flavourless](https://greasyfork.org/scripts/559278) | [2487979] | Removes the crime flavour text. |
-| [Crime Morale](https://greasyfork.org/scripts/515557) | tobytorn [1617955] | A comprehensive tool for Crime 2.0. |
-| [OC Role Assistant](https://github.com/Thunderkill/oc-role-assistant) | Cypher, Renger, Thunderkill | Highlights the best OC role using configurable CPR priorities. |
-| [Battle Stats Predictor](https://github.com/tdup-torn/userscripts) | TDup | Shows predicted battle stats from a third-party service. |
+| Script | Author | Tags | What it does |
+| --- | --- | --- | --- |
+| [Lazy Crimes](https://greasyfork.org/scripts/540604) | Heartflower [2626587] | `crimes` `QoL` | Adds a spam crime button for Crimes. |
+| [Flavourless](https://greasyfork.org/scripts/559278) | [2487979] | `crimes` `QoL` | Removes the crime flavour text. |
+| [Crime Morale](https://greasyfork.org/scripts/515557) | tobytorn [1617955] | `crimes` `QoL` | A comprehensive tool for Crime 2.0. |
+| [OC Role Assistant](https://github.com/Thunderkill/oc-role-assistant) | Cypher, Renger, Thunderkill | `OC` `faction` | Highlights the best OC role using configurable CPR priorities. |
+| [Battle Stats Predictor](https://github.com/tdup-torn/userscripts) | TDup | `pvp` `stats` | Shows predicted battle stats from a third-party service. |
 
 Scripts are linked here, not redistributed — the app downloads each one directly from its original
 source, so updates always come from the author.
@@ -46,7 +46,8 @@ source, so updates always come from the author.
       "version": "1.0.0",                           // optional, display only
       "downloadUrl": "https://.../script.user.js", // required — the .user.js to install
       "updateUrl": "https://.../script.meta.js",   // optional
-      "homepage": "https://..."                    // optional, link to the script's page
+      "homepage": "https://...",                   // optional, link to the script's page
+      "tags": ["crimes", "QoL"]                    // optional categories (see Tags below)
     }
   ]
 }
@@ -54,6 +55,21 @@ source, so updates always come from the author.
 
 Only `scripts[].name` and `scripts[].downloadUrl` are required; everything else is display metadata.
 Unknown fields are ignored, so the format can grow without breaking older app versions.
+
+## Tags
+
+Tags are optional **categories** the repository owner puts on a script — e.g. `crimes`, `QoL`,
+`pvp`. Torn Plus shows a repository's tags as a filter bar when browsing it (and includes them in
+the search box), so users can narrow a long list to a single category. Reuse the same tag across
+scripts to make a real category — several `crimes` scripts collapse into one `crimes` filter.
+
+Each tag must be **alphanumeric and 1–10 characters** (matching `^[A-Za-z0-9]{1,10}$`). The app
+sanitizes tags when it loads the index — anything malformed, oversized, or duplicated (case
+-insensitively) is silently dropped rather than shown — so keep them short, plain, and consistent.
+
+```jsonc
+"tags": ["crimes", "QoL"]   // on a script entry; omit the field entirely for no tags
+```
 
 ## Run your own repository
 
