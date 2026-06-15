@@ -12,7 +12,11 @@
       "version": "2.0.9",
       "downloadUrl": "https://update.greasyfork.org/scripts/540604/Lazy%20Crimes.user.js",
       "updateUrl": "https://update.greasyfork.org/scripts/540604/Lazy%20Crimes.meta.js",
-      "homepage": "https://greasyfork.org/scripts/540604"
+      "homepage": "https://greasyfork.org/scripts/540604",
+      "tags": [
+        "crimes",
+        "QoL"
+      ]
     },
     {
       "name": "Flavourless",
@@ -21,7 +25,11 @@
       "version": "0.0.5",
       "downloadUrl": "https://update.greasyfork.org/scripts/559278/Flavourless.user.js",
       "updateUrl": "https://update.greasyfork.org/scripts/559278/Flavourless.meta.js",
-      "homepage": "https://greasyfork.org/scripts/559278"
+      "homepage": "https://greasyfork.org/scripts/559278",
+      "tags": [
+        "crimes",
+        "QoL"
+      ]
     },
     {
       "name": "Crime Morale",
@@ -30,7 +38,11 @@
       "version": "1.4.15",
       "downloadUrl": "https://update.greasyfork.org/scripts/515557/Crime%20Morale.user.js",
       "updateUrl": "https://update.greasyfork.org/scripts/515557/Crime%20Morale.meta.js",
-      "homepage": "https://greasyfork.org/scripts/515557"
+      "homepage": "https://greasyfork.org/scripts/515557",
+      "tags": [
+        "crimes",
+        "QoL"
+      ]
     },
     {
       "name": "OC Role Assistant",
@@ -39,7 +51,11 @@
       "version": "1.6.16",
       "downloadUrl": "https://raw.githubusercontent.com/Thunderkill/oc-role-assistant/refs/heads/main/OC%20Role%20Assistant.user.js",
       "updateUrl": "https://raw.githubusercontent.com/Thunderkill/oc-role-assistant/refs/heads/main/OC%20Role%20Assistant.user.js",
-      "homepage": "https://github.com/Thunderkill/oc-role-assistant"
+      "homepage": "https://github.com/Thunderkill/oc-role-assistant",
+      "tags": [
+        "OC",
+        "faction"
+      ]
     },
     {
       "name": "Battle Stats Predictor",
@@ -48,7 +64,11 @@
       "version": "9.4.4",
       "downloadUrl": "https://raw.githubusercontent.com/tdup-torn/userscripts/master/battle_stats_predictor.user.js",
       "updateUrl": "https://github.com/tdup-torn/userscripts/raw/master/battle_stats_predictor.user.js",
-      "homepage": "https://github.com/tdup-torn/userscripts"
+      "homepage": "https://github.com/tdup-torn/userscripts",
+      "tags": [
+        "pvp",
+        "stats"
+      ]
     }
   ]
 }
