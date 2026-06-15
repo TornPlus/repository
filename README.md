@@ -24,6 +24,7 @@ single tap. This official repository is always available in the app and cannot b
 | [Flavourless](https://greasyfork.org/scripts/559278) | [2487979] | Removes the crime flavour text. |
 | [Crime Morale](https://greasyfork.org/scripts/515557) | tobytorn [1617955] | A comprehensive tool for Crime 2.0. |
 | [OC Role Assistant](https://github.com/Thunderkill/oc-role-assistant) | Cypher, Renger, Thunderkill | Highlights the best OC role using configurable CPR priorities. |
+| [Battle Stats Predictor](https://github.com/tdup-torn/userscripts) | TDup | Shows predicted battle stats from a third-party service. |
 
 Scripts are linked here, not redistributed — the app downloads each one directly from its original
 source, so updates always come from the author.
